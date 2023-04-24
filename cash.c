@@ -1,6 +1,14 @@
 #include <cs50.h>
 #include <stdio.h>
 
+# Problem set from week 1 of Harvard's CS50 class
+# Uses the greedy algorithm
+# We want to minimize the number of coins that are dispensed when making a change.
+# Think of a “greedy” cashier as one who wants to take the biggest bite out of this problem as possible with each coin they take out of the drawer. 
+# For instance, if some customer is owed 31¢, the biggest first (i.e., best immediate, or local) bite that can be taken is 25¢. Remainder: 31-25 = 6.
+# The greedy cashier would move on to a bite of size 5¢, leaving him or her with a 1¢ problem. 
+# At that point, greed calls for 1¢ bite and the problem is solved. 
+
 int get_cents(void);
 int calculate_quarters(int cents);
 int calculate_dimes(int cents);
