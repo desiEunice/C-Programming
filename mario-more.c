@@ -1,7 +1,7 @@
 #include <cs50.h>
 #include <stdio.h>
 
-// Problem set (week 1) on Mario (more comfortable) from Harvard's CS50 class.
+// Problem set from week 1 of Harvard's CS50 class.
 // This code creates pyramids in C using hashes (#) for bricks.
 
 int get_height(void);
